@@ -1,0 +1,677 @@
+[{
+		"p": {
+			"start": {
+				"identity": 173,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"name": "PDU会话"
+				}
+			},
+			"end": {
+				"identity": 51,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"name": "参数核查"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 173,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"name": "PDU会话"
+					}
+				},
+				"relationship": {
+					"identity": 49,
+					"start": 173,
+					"end": 51,
+					"type": "relation",
+					"properties": {
+						"name": "优化建议"
+					}
+				},
+				"end": {
+					"identity": 51,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"name": "参数核查"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 173,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"name": "PDU会话"
+				}
+			},
+			"end": {
+				"identity": 50,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"name": "检查无线配置"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 173,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"name": "PDU会话"
+					}
+				},
+				"relationship": {
+					"identity": 48,
+					"start": 173,
+					"end": 50,
+					"type": "relation",
+					"properties": {
+						"name": "优化建议"
+					}
+				},
+				"end": {
+					"identity": 50,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"name": "检查无线配置"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 173,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"name": "PDU会话"
+				}
+			},
+			"end": {
+				"identity": 174,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"name": "not supported 5QI value"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 173,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"name": "PDU会话"
+					}
+				},
+				"relationship": {
+					"identity": 111,
+					"start": 173,
+					"end": 174,
+					"type": "relation",
+					"properties": {
+						"name": "故障现象"
+					}
+				},
+				"end": {
+					"identity": 174,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"name": "not supported 5QI value"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 173,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"name": "PDU会话"
+				}
+			},
+			"end": {
+				"identity": 45,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"name": "终端不支持LTE频点概率低"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 173,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"name": "PDU会话"
+					}
+				},
+				"relationship": {
+					"identity": 121,
+					"start": 173,
+					"end": 45,
+					"type": "relation",
+					"properties": {
+						"name": "优化建议"
+					}
+				},
+				"end": {
+					"identity": 45,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"name": "终端不支持LTE频点概率低"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 174,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"name": "not supported 5QI value"
+				}
+			},
+			"end": {
+				"identity": 1,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"name": "没有添加LTE邻频点或者PLMN"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 174,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"name": "not supported 5QI value"
+					}
+				},
+				"relationship": {
+					"identity": 118,
+					"start": 174,
+					"end": 1,
+					"type": "relation",
+					"properties": {
+						"name": "故障原因"
+					}
+				},
+				"end": {
+					"identity": 1,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"name": "没有添加LTE邻频点或者PLMN"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 174,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"name": "not supported 5QI value"
+				}
+			},
+			"end": {
+				"identity": 180,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"name": "EPS FB 没有License"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 174,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"name": "not supported 5QI value"
+					}
+				},
+				"relationship": {
+					"identity": 117,
+					"start": 174,
+					"end": 180,
+					"type": "relation",
+					"properties": {
+						"name": "故障原因"
+					}
+				},
+				"end": {
+					"identity": 180,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"name": "EPS FB 没有License"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 174,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"name": "not supported 5QI value"
+				}
+			},
+			"end": {
+				"identity": 41,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"name": "终端上报能力不支持LTE"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 174,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"name": "not supported 5QI value"
+					}
+				},
+				"relationship": {
+					"identity": 119,
+					"start": 174,
+					"end": 41,
+					"type": "relation",
+					"properties": {
+						"name": "故障原因"
+					}
+				},
+				"end": {
+					"identity": 41,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"name": "终端上报能力不支持LTE"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 174,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"name": "not supported 5QI value"
+				}
+			},
+			"end": {
+				"identity": 179,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"name": "EPS FB开关未打开"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 174,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"name": "not supported 5QI value"
+					}
+				},
+				"relationship": {
+					"identity": 116,
+					"start": 174,
+					"end": 179,
+					"type": "relation",
+					"properties": {
+						"name": "故障原因"
+					}
+				},
+				"end": {
+					"identity": 179,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"name": "EPS FB开关未打开"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 174,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"name": "not supported 5QI value"
+				}
+			},
+			"end": {
+				"identity": 176,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"name": "基站"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 174,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"name": "not supported 5QI value"
+					}
+				},
+				"relationship": {
+					"identity": 113,
+					"start": 174,
+					"end": 176,
+					"type": "relation",
+					"properties": {
+						"name": "故障部位"
+					}
+				},
+				"end": {
+					"identity": 176,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"name": "基站"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 174,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"name": "not supported 5QI value"
+				}
+			},
+			"end": {
+				"identity": 43,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"name": "LTE频段能力没有配置的LTE频段"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 174,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"name": "not supported 5QI value"
+					}
+				},
+				"relationship": {
+					"identity": 120,
+					"start": 174,
+					"end": 43,
+					"type": "relation",
+					"properties": {
+						"name": "故障原因"
+					}
+				},
+				"end": {
+					"identity": 43,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"name": "LTE频段能力没有配置的LTE频段"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 174,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"name": "not supported 5QI value"
+				}
+			},
+			"end": {
+				"identity": 175,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"name": "AMF"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 174,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"name": "not supported 5QI value"
+					}
+				},
+				"relationship": {
+					"identity": 112,
+					"start": 174,
+					"end": 175,
+					"type": "relation",
+					"properties": {
+						"name": "故障部位"
+					}
+				},
+				"end": {
+					"identity": 175,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"name": "AMF"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 175,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"name": "AMF"
+				}
+			},
+			"end": {
+				"identity": 177,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"name": "5QI1PDU Session Resource Modify Response Request"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 175,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"name": "AMF"
+					}
+				},
+				"relationship": {
+					"identity": 114,
+					"start": 175,
+					"end": 177,
+					"type": "relation",
+					"properties": {
+						"name": "发起动作"
+					}
+				},
+				"end": {
+					"identity": 177,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"name": "5QI1PDU Session Resource Modify Response Request"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 176,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"name": "基站"
+				}
+			},
+			"end": {
+				"identity": 178,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"name": "回复not supported 5QI value"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 176,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"name": "基站"
+					}
+				},
+				"relationship": {
+					"identity": 115,
+					"start": 176,
+					"end": 178,
+					"type": "relation",
+					"properties": {
+						"name": "发起动作"
+					}
+				},
+				"end": {
+					"identity": 178,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"name": "回复not supported 5QI value"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	}
+]

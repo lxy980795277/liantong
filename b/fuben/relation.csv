@@ -1,0 +1,81 @@
+head_entity,relation_name,relation_type,tail_entity
+PDU会话回复not supported 5QI value,故障部位,null,部位1
+PDU会话回复not supported 5QI value,故障部位,null,部位2
+PDU会话回复not supported 5QI value,故障部位,null,部位3
+PDU会话回复not supported 5QI value,故障部位,null,部位4
+PDU会话回复not supported 5QI value,故障部位,null,部位5
+PDU会话回复not supported 5QI value,故障部位,null,部位6
+PDU会话回复not supported 5QI value,故障部位,null,部位7
+PDU会话回复not supported 5QI value,故障部位,null,部位8
+PDU会话回复not supported 5QI value,故障部位,null,部位9
+PDU会话回复not supported 5QI value,故障部位,null,部位10
+PDU会话回复not supported 5QI value,故障部位,null,部位11
+PDU会话回复not supported 5QI value,故障部位,null,部位12
+PDU会话回复not supported 5QI value,故障部位,null,部位13
+PDU会话回复not supported 5QI value,故障部位,null,部位14
+PDU会话回复not supported 5QI value,故障部位,null,部位15
+PDU会话回复not supported 5QI value,故障部位,null,部位16
+PDU会话回复not supported 5QI value,故障部位,null,部位17
+PDU会话回复not supported 5QI value,故障部位,null,AMF
+PDU会话回复not supported 5QI value,故障部位,null,基站
+AMF,关联动作,null,动作1
+AMF,关联动作,null,动作2
+AMF,关联动作,null,动作3
+AMF,关联动作,null,动作4
+AMF,关联动作,null,动作5
+AMF,关联动作,null,动作6
+AMF,关联动作,null,动作7
+AMF,关联动作,null,动作8
+AMF,关联动作,null,动作9
+AMF,关联动作,null,动作10
+AMF,关联动作,null,动作11
+AMF,关联动作,null,动作12
+AMF,关联动作,null,动作13
+AMF,关联动作,null,动作14
+AMF,关联动作,null,not supported 5QI value
+AMF,关联动作,null,not supported 5QI value
+基站,关联动作,null,5QI1PDU Session Resource Modify Response Request
+5QI1PDU Session Resource Modify Response Request,故障原因,null,数据库连接失败
+5QI1PDU Session Resource Modify Response Request,故障原因,null,服务器连接失败
+5QI1PDU Session Resource Modify Response Request,故障原因,null,客户端连接失败
+5QI1PDU Session Resource Modify Response Request,故障原因,null,交换机连接失败
+5QI1PDU Session Resource Modify Response Request,故障原因,null,信号源连接失败
+5QI1PDU Session Resource Modify Response Request,故障原因,null,通信网连接失败
+5QI1PDU Session Resource Modify Response Request,故障原因,null,后端连接失败
+5QI1PDU Session Resource Modify Response Request,故障原因,null,前端连接失败
+5QI1PDU Session Resource Modify Response Request,故障原因,null,日志连接失败
+5QI1PDU Session Resource Modify Response Request,故障原因,null,路由器连接失败
+not supported 5QI value,故障原因,null,LTE频段能力
+not supported 5QI value,故障原因,null,EPS FB
+not supported 5QI value,故障原因,null,EPS FB 
+not supported 5QI value,故障原因,null,LTE邻频点
+not supported 5QI value,故障原因,null,PLMN
+not supported 5QI value,故障原因,null,终端
+not supported 5QI value,检查动作,null,路由器配置
+not supported 5QI value,检查动作,null,服务器配置
+not supported 5QI value,检查动作,null,虚拟机配置
+not supported 5QI value,检查动作,null,交换机配置
+not supported 5QI value,检查动作,null,信号源配置
+not supported 5QI value,检查动作,null,节点配置化
+not supported 5QI value,检查动作,null,通信网配置
+not supported 5QI value,检查动作,null,客户端配置
+not supported 5QI value,检查动作,null,后端配置 
+not supported 5QI value,检查动作,null,前端配置
+not supported 5QI value,检查动作,null,日志配置
+not supported 5QI value,检查动作,null,数据库配置 
+EPS FB,优化配置,null,优化方案
+EPS FB ,优化配置,null,优化方案
+LTE邻频点,优化配置,null,优化方案
+PLMN,优化配置,null,优化方案
+终端,优化配置,null,优化方案
+LTE频段能力,优化配置,null,优化方案
+优化方案,具体措施,null,参数
+优化方案,具体措施,null,无线配置
+参数,调整措施,null,增加带宽
+参数,调整措施,null,减小时延
+参数,调整措施,null,增大并发量
+参数,调整措施,null,增大存储量
+参数,调整措施,null,增大数据容量
+参数,调整措施,null,减小数据冗余度
+参数,调整措施,null,优化数据库架构
+参数,调整措施,null,优化后端架构

@@ -1,0 +1,1903 @@
+[{
+		"p": {
+			"start": {
+				"identity": 1,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "专题优化"
+				}
+			},
+			"end": {
+				"identity": 144,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "掉话"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 1,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "专题优化"
+					}
+				},
+				"relationship": {
+					"identity": 98,
+					"start": 1,
+					"end": 144,
+					"type": "relation",
+					"properties": {
+						"relation_name": "解决"
+					}
+				},
+				"end": {
+					"identity": 144,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "掉话"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 1,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "专题优化"
+				}
+			},
+			"end": {
+				"identity": 148,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "未接通"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 1,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "专题优化"
+					}
+				},
+				"relationship": {
+					"identity": 99,
+					"start": 1,
+					"end": 148,
+					"type": "relation",
+					"properties": {
+						"relation_name": "解决"
+					}
+				},
+				"end": {
+					"identity": 148,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "未接通"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 51,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "PCRF 调度异常"
+				}
+			},
+			"end": {
+				"identity": 138,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "QCI1 建立失败"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 51,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "PCRF 调度异常"
+					}
+				},
+				"relationship": {
+					"identity": 56,
+					"start": 51,
+					"end": 138,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "未接通"
+					}
+				},
+				"end": {
+					"identity": 138,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "QCI1 建立失败"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 55,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "机制冲突"
+				}
+			},
+			"end": {
+				"identity": 138,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "QCI1 建立失败"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 55,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "机制冲突"
+					}
+				},
+				"relationship": {
+					"identity": 57,
+					"start": 55,
+					"end": 138,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "未接通"
+					}
+				},
+				"end": {
+					"identity": 138,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "QCI1 建立失败"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 63,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "SIP 空口超时"
+				}
+			},
+			"end": {
+				"identity": 142,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "QCI1建立 以后释放"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 63,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "SIP 空口超时"
+					}
+				},
+				"relationship": {
+					"identity": 59,
+					"start": 63,
+					"end": 142,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "未接通"
+					}
+				},
+				"end": {
+					"identity": 142,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "QCI1建立 以后释放"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 66,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "RRC release"
+				}
+			},
+			"end": {
+				"identity": 43,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "VoLTE 掉线"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 66,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "RRC release"
+					}
+				},
+				"relationship": {
+					"identity": 60,
+					"start": 66,
+					"end": 43,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "掉话"
+					}
+				},
+				"end": {
+					"identity": 43,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "VoLTE 掉线"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 68,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "SIP 消息异常"
+				}
+			},
+			"end": {
+				"identity": 43,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "VoLTE 掉线"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 68,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "SIP 消息异常"
+					}
+				},
+				"relationship": {
+					"identity": 61,
+					"start": 68,
+					"end": 43,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "掉话"
+					}
+				},
+				"end": {
+					"identity": 43,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "VoLTE 掉线"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 70,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "空口丢包"
+				}
+			},
+			"end": {
+				"identity": 66,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "RRC release"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 70,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "空口丢包"
+					}
+				},
+				"relationship": {
+					"identity": 62,
+					"start": 70,
+					"end": 66,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "掉话"
+					}
+				},
+				"end": {
+					"identity": 66,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "RRC release"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 81,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "参数配置"
+				}
+			},
+			"end": {
+				"identity": 66,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "RRC release"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 81,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "参数配置"
+					}
+				},
+				"relationship": {
+					"identity": 63,
+					"start": 81,
+					"end": 66,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "掉话"
+					}
+				},
+				"end": {
+					"identity": 66,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "RRC release"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 91,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "核心网 发起释放"
+				}
+			},
+			"end": {
+				"identity": 66,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "RRC release"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 91,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "核心网 发起释放"
+					}
+				},
+				"relationship": {
+					"identity": 64,
+					"start": 91,
+					"end": 66,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "掉话"
+					}
+				},
+				"end": {
+					"identity": 66,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "RRC release"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 103,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "弱覆盖"
+				}
+			},
+			"end": {
+				"identity": 70,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "空口丢包"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 103,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "弱覆盖"
+					}
+				},
+				"relationship": {
+					"identity": 65,
+					"start": 103,
+					"end": 70,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "掉话"
+					}
+				},
+				"end": {
+					"identity": 70,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "空口丢包"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 116,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "SIP 流程异常"
+				}
+			},
+			"end": {
+				"identity": 131,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "QCI1 没有建立"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 116,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "SIP 流程异常"
+					}
+				},
+				"relationship": {
+					"identity": 52,
+					"start": 116,
+					"end": 131,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "未接通"
+					}
+				},
+				"end": {
+					"identity": 131,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "QCI1 没有建立"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 116,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "SIP 流程异常"
+				}
+			},
+			"end": {
+				"identity": 142,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "QCI1建立 以后释放"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 116,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "SIP 流程异常"
+					}
+				},
+				"relationship": {
+					"identity": 58,
+					"start": 116,
+					"end": 142,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "未接通"
+					}
+				},
+				"end": {
+					"identity": 142,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "QCI1建立 以后释放"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 118,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "重选或 TAU问题"
+				}
+			},
+			"end": {
+				"identity": 131,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "QCI1 没有建立"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 118,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "重选或 TAU问题"
+					}
+				},
+				"relationship": {
+					"identity": 53,
+					"start": 118,
+					"end": 131,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "未接通"
+					}
+				},
+				"end": {
+					"identity": 131,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "QCI1 没有建立"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 129,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "寻呼丢失"
+				}
+			},
+			"end": {
+				"identity": 131,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "QCI1 没有建立"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 129,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "寻呼丢失"
+					}
+				},
+				"relationship": {
+					"identity": 54,
+					"start": 129,
+					"end": 131,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "未接通"
+					}
+				},
+				"end": {
+					"identity": 131,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "QCI1 没有建立"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 131,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "QCI1 没有建立"
+				}
+			},
+			"end": {
+				"identity": 41,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "VoLTE 呼叫建 立失败"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 131,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "QCI1 没有建立"
+					}
+				},
+				"relationship": {
+					"identity": 108,
+					"start": 131,
+					"end": 41,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "未接通"
+					}
+				},
+				"end": {
+					"identity": 41,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "VoLTE 呼叫建 立失败"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 132,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "PIC冲突"
+				}
+			},
+			"end": {
+				"identity": 70,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "空口丢包"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 132,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "PIC冲突"
+					}
+				},
+				"relationship": {
+					"identity": 66,
+					"start": 132,
+					"end": 70,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "掉话"
+					}
+				},
+				"end": {
+					"identity": 70,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "空口丢包"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 133,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "切换失败"
+				}
+			},
+			"end": {
+				"identity": 70,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "空口丢包"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 133,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "切换失败"
+					}
+				},
+				"relationship": {
+					"identity": 67,
+					"start": 133,
+					"end": 70,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "掉话"
+					}
+				},
+				"end": {
+					"identity": 70,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "空口丢包"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 134,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "临区漏配"
+				}
+			},
+			"end": {
+				"identity": 70,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "空口丢包"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 134,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "临区漏配"
+					}
+				},
+				"relationship": {
+					"identity": 72,
+					"start": 134,
+					"end": 70,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "掉话"
+					}
+				},
+				"end": {
+					"identity": 70,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "空口丢包"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 135,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "终端发起 cancel"
+				}
+			},
+			"end": {
+				"identity": 68,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "SIP 消息异常"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 135,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "终端发起 cancel"
+					}
+				},
+				"relationship": {
+					"identity": 83,
+					"start": 135,
+					"end": 68,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "掉话"
+					}
+				},
+				"end": {
+					"identity": 68,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "SIP 消息异常"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 137,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "IMS发起 cancel"
+				}
+			},
+			"end": {
+				"identity": 68,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "SIP 消息异常"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 137,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "IMS发起 cancel"
+					}
+				},
+				"relationship": {
+					"identity": 84,
+					"start": 137,
+					"end": 68,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "掉话"
+					}
+				},
+				"end": {
+					"identity": 68,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "SIP 消息异常"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 138,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "QCI1 建立失败"
+				}
+			},
+			"end": {
+				"identity": 41,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "VoLTE 呼叫建 立失败"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 138,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "QCI1 建立失败"
+					}
+				},
+				"relationship": {
+					"identity": 109,
+					"start": 138,
+					"end": 41,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "未接通"
+					}
+				},
+				"end": {
+					"identity": 41,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "VoLTE 呼叫建 立失败"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 140,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "被叫异常"
+				}
+			},
+			"end": {
+				"identity": 135,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "终端发起 cancel"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 140,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "被叫异常"
+					}
+				},
+				"relationship": {
+					"identity": 85,
+					"start": 140,
+					"end": 135,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "掉话"
+					}
+				},
+				"end": {
+					"identity": 135,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "终端发起 cancel"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 142,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "QCI1建立 以后释放"
+				}
+			},
+			"end": {
+				"identity": 41,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "VoLTE 呼叫建 立失败"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 142,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "QCI1建立 以后释放"
+					}
+				},
+				"relationship": {
+					"identity": 110,
+					"start": 142,
+					"end": 41,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "未接通"
+					}
+				},
+				"end": {
+					"identity": 41,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "VoLTE 呼叫建 立失败"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 143,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "未接"
+				}
+			},
+			"end": {
+				"identity": 135,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "终端发起 cancel"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 143,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "未接"
+					}
+				},
+				"relationship": {
+					"identity": 86,
+					"start": 143,
+					"end": 135,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "掉话"
+					}
+				},
+				"end": {
+					"identity": 135,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "终端发起 cancel"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 144,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "掉话"
+				}
+			},
+			"end": {
+				"identity": 50,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "通话结束 后掉话"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 144,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "掉话"
+					}
+				},
+				"relationship": {
+					"identity": 88,
+					"start": 144,
+					"end": 50,
+					"type": "relation",
+					"properties": {
+						"relation_name": "包含"
+					}
+				},
+				"end": {
+					"identity": 50,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "通话结束 后掉话"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 144,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "掉话"
+				}
+			},
+			"end": {
+				"identity": 45,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "通话过程 中掉话"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 144,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "掉话"
+					}
+				},
+				"relationship": {
+					"identity": 87,
+					"start": 144,
+					"end": 45,
+					"type": "relation",
+					"properties": {
+						"relation_name": "包含"
+					}
+				},
+				"end": {
+					"identity": 45,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "通话过程 中掉话"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 145,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "空口干扰"
+				}
+			},
+			"end": {
+				"identity": 171,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "RRC 建立失败"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 145,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "空口干扰"
+					}
+				},
+				"relationship": {
+					"identity": 48,
+					"start": 145,
+					"end": 171,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "未接通"
+					}
+				},
+				"end": {
+					"identity": 171,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "RRC 建立失败"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 146,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "接入限制"
+				}
+			},
+			"end": {
+				"identity": 171,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "RRC 建立失败"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 146,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "接入限制"
+					}
+				},
+				"relationship": {
+					"identity": 49,
+					"start": 146,
+					"end": 171,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "未接通"
+					}
+				},
+				"end": {
+					"identity": 171,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "RRC 建立失败"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 147,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "SIP 注册失败"
+				}
+			},
+			"end": {
+				"identity": 172,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "QCI5 建立失败"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 147,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "SIP 注册失败"
+					}
+				},
+				"relationship": {
+					"identity": 50,
+					"start": 147,
+					"end": 172,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "未接通"
+					}
+				},
+				"end": {
+					"identity": 172,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "QCI5 建立失败"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 148,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "未接通"
+				}
+			},
+			"end": {
+				"identity": 52,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "VoLTE呼叫 建立失败"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 148,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "未接通"
+					}
+				},
+				"relationship": {
+					"identity": 91,
+					"start": 148,
+					"end": 52,
+					"type": "relation",
+					"properties": {
+						"relation_name": "包含"
+					}
+				},
+				"end": {
+					"identity": 52,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "VoLTE呼叫 建立失败"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 152,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "EPC 承载释放"
+				}
+			},
+			"end": {
+				"identity": 172,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "QCI5 建立失败"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 152,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "EPC 承载释放"
+					}
+				},
+				"relationship": {
+					"identity": 51,
+					"start": 152,
+					"end": 172,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "未接通"
+					}
+				},
+				"end": {
+					"identity": 172,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "QCI5 建立失败"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 153,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "VolLTE 优化"
+				}
+			},
+			"end": {
+				"identity": 1,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "专题优化"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 153,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "VolLTE 优化"
+					}
+				},
+				"relationship": {
+					"identity": 97,
+					"start": 153,
+					"end": 1,
+					"type": "relation",
+					"properties": {
+						"relation_name": "包含"
+					}
+				},
+				"end": {
+					"identity": 1,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "专题优化"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 167,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "传输丢包"
+				}
+			},
+			"end": {
+				"identity": 131,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "QCI1 没有建立"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 167,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "传输丢包"
+					}
+				},
+				"relationship": {
+					"identity": 55,
+					"start": 167,
+					"end": 131,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "未接通"
+					}
+				},
+				"end": {
+					"identity": 131,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "QCI1 没有建立"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 171,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "RRC 建立失败"
+				}
+			},
+			"end": {
+				"identity": 41,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "VoLTE 呼叫建 立失败"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 171,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "RRC 建立失败"
+					}
+				},
+				"relationship": {
+					"identity": 103,
+					"start": 171,
+					"end": 41,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "未接通"
+					}
+				},
+				"end": {
+					"identity": 41,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "VoLTE 呼叫建 立失败"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	},
+	{
+		"p": {
+			"start": {
+				"identity": 172,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "QCI5 建立失败"
+				}
+			},
+			"end": {
+				"identity": 41,
+				"labels": [
+					"entity"
+				],
+				"properties": {
+					"entity_name": "VoLTE 呼叫建 立失败"
+				}
+			},
+			"segments": [{
+				"start": {
+					"identity": 172,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "QCI5 建立失败"
+					}
+				},
+				"relationship": {
+					"identity": 104,
+					"start": 172,
+					"end": 41,
+					"type": "relation",
+					"properties": {
+						"relation_name": "造成",
+						"relation_type": "未接通"
+					}
+				},
+				"end": {
+					"identity": 41,
+					"labels": [
+						"entity"
+					],
+					"properties": {
+						"entity_name": "VoLTE 呼叫建 立失败"
+					}
+				}
+			}],
+			"length": 1.0
+		}
+	}
+]
