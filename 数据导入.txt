@@ -1,0 +1,48 @@
+LOAD CSV with headers  FROM "file:///new/entity_1.csv" AS line 
+create (n:entity_1{name:line.entity_name})
+
+LOAD CSV with headers  FROM "file:///new/entity_2.csv" AS line 
+create (n:entity_2{name:line.entity_name})
+
+LOAD CSV with headers  FROM "file:///new/entity_3.csv" AS line 
+create (n:entity_3{name:line.entity_name})
+
+LOAD CSV with headers  FROM "file:///new/entity_4.csv" AS line 
+create (n:entity_4{name:line.entity_name})
+
+
+LOAD CSV with headers  FROM "file:///new/entity_5.csv" AS line 
+create (n:entity_5{name:line.entity_name})
+
+LOAD CSV with headers  FROM "file:///new/entity_6.csv" AS line 
+create (n:entity_6{name:line.entity_name})
+
+LOAD CSV with headers  FROM "file:///new/entity_7.csv" AS line 
+create (n:entity_7{name:line.entity_name})
+
+LOAD CSV with headers  FROM "file:///new/relation.csv" AS line 
+match(a:entity_1{name:line.head_entity}),(b:entity_2{name:line.tail_entity}) 
+create(a)-[r:relation_1{name:line.relation_name,type:line.relation_type}]->(b)
+
+
+LOAD CSV with headers  FROM "file:///new/relation.csv" AS line 
+match(a:entity_2{name:line.head_entity}),(b:entity_3{name:line.tail_entity}) 
+create(a)-[r:relation_2{name:line.relation_name,type:line.relation_type}]->(b)
+
+LOAD CSV with headers  FROM "file:///new/relation.csv" AS line 
+match(a:entity_3{name:line.head_entity}),(b:entity_4{name:line.tail_entity}) 
+create(a)-[r:relation_3{name:line.relation_name,type:line.relation_type}]->(b)
+
+LOAD CSV with headers  FROM "file:///new/relation.csv" AS line 
+match(a:entity_4{name:line.head_entity}),(b:entity_5{name:line.tail_entity}) 
+create(a)-[r:relation_4{name:line.relation_name,type:line.relation_type}]->(b)
+
+LOAD CSV with headers  FROM "file:///new/relation.csv" AS line 
+match(a:entity_5{name:line.head_entity}),(b:entity_6{name:line.tail_entity}) 
+create(a)-[r:relation_5{name:line.relation_name,type:line.relation_type}]->(b)
+
+LOAD CSV with headers  FROM "file:///new/relation.csv" AS line 
+match(a:entity_6{name:line.head_entity}),(b:entity_7{name:line.tail_entity}) 
+create(a)-[r:relation_6{name:line.relation_name,type:line.relation_type}]->(b)
+
+
